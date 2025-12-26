@@ -1,0 +1,20 @@
+# broadcast = 1 (ultimo host de la red)
+# red = 1 (primer host de la red)
+# 32 - Mascara = a
+# 2^a = saltos
+# saltos - 2 (red, broadcast) = hosts utilizables
+
+Ejemplo:
+
+IP = 192.168.100.139/26
+
+32 - 26 = 6
+
+2^6 = 64
+
+64 - 2 =62
+
+Hosts utilizables = 62
+
+# En caso de que la mascara de red sea 31 o 32 NO tiene red ni broadcast
+
